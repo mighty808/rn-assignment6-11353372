@@ -1,13 +1,13 @@
-import { StyleSheet, View } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
 import Header from '../components/Header';
 import Products from '../components/Products';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
      <Header />
      <Products />
-    </View>
+    </SafeAreaView>
   );
 }
 
